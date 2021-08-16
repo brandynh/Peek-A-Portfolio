@@ -14,17 +14,14 @@ Click on [Deployed Website](https://brandynh.github.io/Peek-A-Portfolio/) link
 
 ![ScreenShot](./assets/images/portDemo.gif)
 
-![ScreenShot](./assets/images/portDemoSmall.gif)
-
 ## Credits 
     
 By : Brandyn Huffer
 
 ### References
 
-[W3Schools](https://www.w3schools.com/)
 
-[BootCamp Markup Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-[Mozilla MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+* [W3Schools](https://www.w3schools.com/)
+* [BootCamp Markup Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+* [Mozilla MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 

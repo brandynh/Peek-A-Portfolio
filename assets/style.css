@@ -209,8 +209,8 @@ section article p {
 /* Flip Card ID for Card one */
 #flip-card-one {
   background-color: transparent;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   border-radius: 8px;
   border: 1px solid var(--box-accent);
   perspective: 1000px; 
