@@ -158,12 +158,8 @@ section div p {
 }
 
 .paragraph-container {
-  display: block;
   background: var(--tertiary-color);
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 3%;
-  line-height: 1.5;
   border-radius: 8px;
   border: 3px solid var(--box-accent);
 
@@ -179,8 +175,6 @@ section div p {
   border-radius: 15px;
   border-right: 2px solid var( --box-accent);
   border-top: 2px solid var( --box-accent);
-  display: flex;
-  flex-wrap: wrap;
   line-height: 2;
   z-index: 2;
 }

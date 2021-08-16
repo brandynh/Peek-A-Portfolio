@@ -15,3 +15,6 @@ Click on [Deployed Website](https://brandynh.github.io/Peek-A-Portfolio/) link
 ![ScreenShot](./assets/images/portDemo.gif)
 
 ![ScreenShot](./assets/images/portDemoSmall.gif)
+
+## Credits 
+
