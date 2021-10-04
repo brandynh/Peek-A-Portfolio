@@ -206,67 +206,36 @@ section article p {
   font-size: 20px;
 }
 
-/* Flip Card ID for Card one */
-#flip-card-one {
-  background-color: transparent;
-  width: 400px;
-  height: 300px;
-  border-radius: 8px;
-  border: 1px solid var(--box-accent);
-  perspective: 1000px; 
-  }
+.redirectBtn {
+  justify-content: center;
+}
 
-  /* Flip Cards Class*/
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border-radius: 8px;
-  border: 1px solid var(--box-accent);
-  perspective: 1000px; 
-  }
-  
-  /* Positioning front and back side of cards */
-  .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  }
-
-  #flip-card-one:hover .flip-card-inner {
-  transform: rotateY(180deg);
-  }
-  
-  /* Flip Horizontally on Hover */
-  .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  }
-  
-  /* Style front side kicks in if image is missing */
-  .flip-card-front {
-  background-color: var(--main-color);
-  color: var(--tertiary-color);
-  border-radius: 8px;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
+  font-family: arial;
   background-color: var(--tertiary-color);
-  color: var(--main-color);
-  transform: rotateY(180deg);
-  border-radius: 8px;
-  }
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: var(--box-accent);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  box-shadow: inset 0px 0px 8px var(--secondary-color), 0 0 15px var(--secondary-color);
+  transform: scale(1.2);
+}
   
   footer ul {
   display: flex;
