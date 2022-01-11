@@ -68,7 +68,7 @@ margin: 25px;
 
 h2 span{
   background-color: var(--tertiary-color);
-  padding: 0px;
+  padding: 15px;
   border-radius: 15px;
   border-right: 2px solid var(--box-accent);
   border-top: 2px solid var(--box-accent);
@@ -122,12 +122,12 @@ section {
 }
 
 section img {
-  margin-left: 13%;
   margin-top:3%;
   width: 30%;
   border-radius: 8px;
   height: auto;
   max-width: 100%;
+  /* border: 10px solid var(--box-accent); */
 }
 
 
@@ -144,10 +144,10 @@ section div img {
 
 section article {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding: 70px;
 }
 
 section div p {
@@ -159,9 +159,8 @@ section div p {
 
 .paragraph-container {
   background: var(--tertiary-color);
-  margin-bottom: 3%;
   border-radius: 8px;
-  border: 3px solid var(--box-accent);
+  border: 10px solid var(--box-accent);
 
 
 }
@@ -191,12 +190,13 @@ main {
 }
 
 article {
-  display: flex;
-  flex-wrap: wrap;
+  display:flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
 article h1 {
+  padding: 20px;
   font-variant: small-caps;
   font-size: 30px;
 }
@@ -204,25 +204,37 @@ article h1 {
 section article p {
   font-family: monospace;
   font-size: 20px;
+  padding: 30px;
+  text-align: justify;
 }
 
 .redirectBtn {
   justify-content: center;
+  padding: 40px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 50%;
+  border-radius: 8px;
   margin: auto;
   text-align: center;
   font-family: arial;
   background-color: var(--tertiary-color);
+  padding: 3%;
+  border: 10px solid var(--box-accent);
+}
+
+.card-description {
+  background-color: var(--section-background);
+  border-radius: 8px;
+  
 }
 
 .card button {
-  border: none;
   outline: 0;
   padding: 12px;
+  border-radius: 8px;
   color: white;
   background-color: var(--box-accent);
   text-align: center;
@@ -236,17 +248,22 @@ section article p {
   box-shadow: inset 0px 0px 8px var(--secondary-color), 0 0 15px var(--secondary-color);
   transform: scale(1.2);
 }
+
+  footer {
+    padding: 70px;
+  }
   
   footer ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: flex-end;
   margin: 9px;
   padding: 10px;
   text-align: center;
   }
- 
+
 
   @media screen and (max-width: 786px) {
     header h1 {
