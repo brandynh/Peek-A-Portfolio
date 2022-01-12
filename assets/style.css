@@ -165,6 +165,23 @@ section div p {
 
 }
 
+.paragraph-container ul {
+  text-align: center;
+  font-family: monospace;
+    font-size: 20px;
+}
+
+.skillsLeft-container {
+  float: left;
+  padding-left: 30%;
+    padding-bottom: 35Px;
+}
+
+.skillsRight-container {
+  float: right;
+  padding-right: 30%;
+}
+
 .nav-links {
   font-variant: small-caps;
   text-decoration: none;
